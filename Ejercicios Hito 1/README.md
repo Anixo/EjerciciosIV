@@ -27,13 +27,13 @@ El precio del servicio de Arsys es de 40 €/mes, por lo que al año nos cuesta 
 ### Ejercicio 4
 1. **Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.**
 ![CapturaEjercicio4.1](./img/Captura2.png)
-2. **Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.**
+2. **Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.**  
 \-  
 
 ### Ejercicio 5
-**Darse de alta en servicios de nube usando ofertas gratuitas o cupones que pueda proporcionar el profesor.**
+**Darse de alta en servicios de nube usando ofertas gratuitas o cupones que pueda proporcionar el profesor.**  
 \-  
 
 ### Ejercicio 6
-**Darse de alta en una web que permita hacer pruebas con alguno de los sistemas de gestión de nube anteriores.**
+**Darse de alta en una web que permita hacer pruebas con alguno de los sistemas de gestión de nube anteriores.**  
 \-  
