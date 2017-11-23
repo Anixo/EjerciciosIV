@@ -33,7 +33,7 @@ $ sudo docker pull partlab/ubuntu-arm-mongodb
 
 ### Ejercicio 5
 **Crear un usuario propio e instalar alguna aplicación tal como nginx en el contenedor creado de esta forma, usando las órdenes propias del sistema operativo con el que se haya inicializado el contenedor.**  
-Ejecutamos:
+Ejecutamos:  
 ![Captura5](./img/5.png)
 
 
@@ -49,7 +49,7 @@ Creamos la nueva imagen llamada `nuevo-nombre`, seleccionando el ID del contened
 $ sudo docker commit <ID contenedor> <nombre>
 ~~~
 Y como vemos en la imagen se ha creado:
-![Captura6.2](./img/6,2.png)
+![Captura6.2](./img/6.2.png)
 
 
 ### Ejercicio 7
@@ -75,5 +75,5 @@ CMD [ "hug",  "-p 80", "-f","./botQueToca/hugweb.py" ]
 
 ### Ejercicio 8
 **Desplegar un contenedor en alguno de estos servicios, de prueba gratuita o gratuitos.**  
-URL de Docker Hub: https://hub.docker.com/r/anixo/proyectoiv/
+URL de Docker Hub: https://hub.docker.com/r/anixo/proyectoiv/  
 Contenedor: https://proyectoiv-frymrirpfw.now.sh/
