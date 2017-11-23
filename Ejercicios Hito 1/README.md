@@ -20,7 +20,7 @@ El precio del servicio de Arsys es de 40 €/mes, por lo que al año nos cuesta 
 ### Ejercicio 3
 **En general, cualquier ordenador con menos de 5 o 6 años tendrá estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden? Si usas una máquina virtual, ¿qué resultado da? ¿Y en una Raspberry Pi o, si tienes acceso, el procesador del móvil?**
 - Intel(R) Core(TM) i7-4710HQ CPU @ 2.50GHz
-- Tras ejecutar egrep '^flags.*(vmx|svm)' /proc/cpuinfo me muestra:
+- Tras ejecutar egrep '^flags.\*(vmx|svm)' /proc/cpuinfo me muestra:
 ![CapturaEjercicio3](./img/Captura1.png)
 
 
