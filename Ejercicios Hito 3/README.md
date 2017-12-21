@@ -11,7 +11,7 @@ Realizado en el proyecto de la asignatura, hito3.
 ### Ejercicio 3
 **Realizar una app en express (o el lenguaje y marco elegido) que incluya variables como en el caso anterior.**  
 Realizado en el proyecto de la asignatura, hito3.  
-Se han creadi variables de entorno para el TOKEN del bot y las credenciales de la base de datos.  
+Se han creado variables de entorno para el TOKEN del bot y las credenciales de la base de datos.  
 
 ### Ejercicio 4
 **Crear pruebas para las diferentes rutas de la aplicación.**  

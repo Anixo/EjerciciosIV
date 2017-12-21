@@ -19,16 +19,13 @@ Ejecutamos los comandos:
 $ qemu-img create -f qcow2 disco.img 500M
 ~~~
 ![Captura3](./img/2.1.png)
-![Captura4](./img/2.2.png)
-Para le apartado 2:  
+![Captura4](./img/2.2.png)  
+Para el apartado 2:  
 ![Captura5](./img/2.3.png)
 
 
 ### Ejercicio 3
-**Crear un benchmark de velocidad de entrada salida y comprobar la diferencia entre usar paravirtualización y arrancar la máquina virtual simplemente con:  
-~~~
-qemu-system-x86_64 -hda /media/Backup/Isos/discovirtual.img
-~~~**  
+**Crear un benchmark de velocidad de entrada salida y comprobar la diferencia entre usar paravirtualización y arrancar la máquina virtual simplemente con: qemu-system-x86_64 -hda /media/Backup/Isos/discovirtual.img**  
 -
 
 
