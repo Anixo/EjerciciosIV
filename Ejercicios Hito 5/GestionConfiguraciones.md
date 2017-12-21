@@ -7,7 +7,7 @@ Ejecutamos los siguientes comandos:
 $ sudo apt-get install ruby ruby-dev
 $ sudo gem install chef
 ~~~
-![Captura1](./img/configuraciones/1.1.png)
+![Captura1](./img/configuraciones/1.1.png)  
 
 
 ### Ejercicio 2
@@ -25,7 +25,7 @@ Creamos el archivo *node.js* con el siguiente contenido:
 }
 ~~~
 Estos archivos van en la carpeta principal:
-![Captura2](./img/configuraciones/2.1.png)
+![Captura2](./img/configuraciones/2.1.png)  
 Creamos el archivo *default.rb* con el siguiente contenido:  
 ~~~
 system('apt-get install python')
@@ -34,7 +34,7 @@ system('pip install -r /home/usuario/app/ProyectoIV-master/requirements.txt')
 system('hug -p 80 -f /home/usuario/app/ProyectoIV-master/botQueToca/hugweb.py')
 ~~~
 Este archivo va en la ruta de la imagen:  
-![Captura3](./img/configuraciones/2.2.png)
+![Captura3](./img/configuraciones/2.2.png)  
 Lo ejecutamos con:  
 ~~~
 $ sudo chef-solo -c chef/solo.rb
@@ -57,13 +57,13 @@ Creamos el archivo Vagrantfile:
 $ vagrant init
 ~~~
 Y lo editamos:  
-![Captura4](./img/configuraciones/4.1.png)
+![Captura4](./img/configuraciones/4.1.png)  
 Levantamos la maquina y nos conectamos:  
 ~~~
 $ vagrant up
 $ vagrant ssh
 ~~~
-![Captura5](./img/configuraciones/4.2.png)
+![Captura5](./img/configuraciones/4.2.png)  
 
 
 ### Ejercicio 5
@@ -75,17 +75,17 @@ Vagrant.configure(2) do |config|
   config.vm.provision "shell", inline: "sudo apt-get -y install nginx"
 end
 ~~~
-![Captura6](./img/configuraciones/5.1.png)
+![Captura6](./img/configuraciones/5.1.png)  
 Levantamos la maquina y la provisionamos:
 ~~~
 $ vagrant up
 $ vagrant provision
 ~~~
 Y como vemos esta instalado
-![Captura7](./img/configuraciones/5.2.png)
+![Captura7](./img/configuraciones/5.2.png)  
 
 
 ### Ejercicio 6
 **Configurar tu máquina virtual usando vagrant con el provisionador chef.**  
 El arbol de directorios es como el del ejercicio2, tan solo configuramos el archivo:  
-![Captura8](./img/configuraciones/6.1.png)
+![Captura8](./img/configuraciones/6.1.png)  
